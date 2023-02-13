@@ -12,7 +12,6 @@ app.use(express.json());
 
 // Write POST endpoint for registering new user
 
-
 // GET endpoint for sending the details of users
 app.get("/api/v1/details", (req, res) => {
   res.status(200).json({
